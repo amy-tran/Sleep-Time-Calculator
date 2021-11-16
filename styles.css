@@ -1,0 +1,77 @@
+body {
+    background-color: #f0ebf8;
+    margin-right: 22rem;
+    margin-left: 22rem;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.about {
+    margin-top: 13px;
+    background: white;
+    border-radius: 10px;
+    border-top: solid 10px #5d40b2;
+    border-bottom: solid 1px #2b262b;
+    border-right: solid 1px #2b262b;
+    border-left: solid 1px #2b262b;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.name {
+    margin-top: 13px;
+    background: white;
+    border-radius: 10px;
+    border: solid 1px #2b262b;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sleeperType {
+    margin-top: 13px;
+    background: white;
+    border-radius: 10px;
+    border: solid 1px #2b262b;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.catSleeping {
+    width: 90%;
+    padding: 7px;
+}
+
+.averageSleepLength {
+    margin-top: 13px;
+    background: white;
+    border-radius: 10px;
+    border: solid 1px #2b262b;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button {
+    background-color: #673ab7;
+    color: white;
+    border-radius: 4px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 10px;
+}
+
+.reset {
+    margin-bottom: 3rem;
+}
