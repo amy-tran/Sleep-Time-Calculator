@@ -1,7 +1,8 @@
 $(".submit").click(function() {
-    let type = $("input").val();
-    let yourName = $(".yourName").val();
+    let type = $(".typeInput").val();
+    let yourName = $(".yourNameInput").val();
     let hours = $(".hoursSpentInput").val();
-    $(".results").append("Hi," + type + yourName + ", you would have slept" + hours + "by 2050!");
+    hours = new Date("2050-1-1") - Date.now() / 1000 / 60 / 60 / 24;
+    $(".results").append("Hi, " + type + " sleeper " + yourName + ", you would have slept " + hours + " hours by 2050!");
     $(".results").show();
 });
